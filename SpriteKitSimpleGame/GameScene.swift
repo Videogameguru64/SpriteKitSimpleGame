@@ -194,7 +194,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
         let touchLocation = touch.locationInNode(self)
         
-        
+        //
         //player1
         if(player .containsPoint(touchLocation))
         {
